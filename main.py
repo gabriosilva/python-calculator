@@ -10,7 +10,7 @@ class opVal:
         self.raw = raw
         self.splitedBy = splitedBy
 
-
+#define the class that splits the input and processes it after
 class final(opVal):
     def __init__(self, raw, splitedBy):
         super().__init__(raw, splitedBy)
