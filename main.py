@@ -3,7 +3,7 @@ import operator
 banner      = print("[+] Welcome to this simple calculator\n")
 operationInput   = input("[I] Type any value to be calculated and its function separated by a comma. ex.: (1,+,1): ")
 
-
+#define the object values
 class opVal:
     def __init__(self, raw, splitedBy):
         self.ops = ops = {"+":operator.add, "-":operator.sub, "*":operator.mul, "**":operator.pow}
